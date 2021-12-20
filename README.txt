@@ -7,7 +7,8 @@ made available to the customers either in physical format (Handed over to the pe
 building or room) or digitally (virtually) or even both. The aim of this database management
 system is to provide a user-friendly environment so that customer or library staff can easily
 perform the tasks/operations in an efficient manner.
-As a brief overview, our database application allows users to store the book details and the
+
+Our database application allows users to store the book details and the
 customer details. Users can interact with the database in the following ways: they can contribute
 to the database (e.g. search the book/submit a new book information - this would require an
 appropriate ISBN, Title, Category, Author, Publisher, Status of the book) etc, they can issue the
