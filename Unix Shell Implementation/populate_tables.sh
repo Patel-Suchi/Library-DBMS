@@ -1,6 +1,6 @@
 #!/bin/sh
 
-sqlplus64 "s352pate/Moon5009@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(Host=oracle.scs.ryerson.ca)(Port=1521))(CONNECT_DATA=(SID=orcl)))" <<EOF
+sqlplus64 "username/password@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(Host=oracle.scs.ryerson.ca)(Port=1521))(CONNECT_DATA=(SID=orcl)))" <<EOF
 
 INSERT INTO books (ISBN, book_title, category, rental_price, status, author, publisher) 
 VALUES (978-0-74-452502-1, 'Don_Quixote', 'Adventure_fiction', 8, 'Available', 'Miguel_de_Cervantes', 'Penguin_Books');
